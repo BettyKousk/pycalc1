@@ -1,3 +1,5 @@
+# Perform simplearithmitic encoded in an input string
+# '1 + 2' -> 3, or '1 - 2' -> -1.
 def compute(expression):
     num0, operator, num1 = expression.split(' ')
     num0 = int(values[0])
